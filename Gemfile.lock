@@ -1,0 +1,19 @@
+PATH
+  remote: .
+  specs:
+    pretty_model (0.1.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    rake (13.1.0)
+
+PLATFORMS
+  x86_64-darwin-23
+
+DEPENDENCIES
+  pretty_model!
+  rake (~> 13.0)
+
+BUNDLED WITH
+   2.4.10
