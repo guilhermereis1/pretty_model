@@ -4,9 +4,9 @@ require 'rails/generators'
 class ConcernGenerator < Rails::Generators::NamedBase
   source_root File.expand_path('templates', __dir__)
 
-  CONCERN_TYPES = %w(associations validations callbacks scopes enums custom_methods).freeze
+  CONCERN_TYPES = %w(associations validation_rules lifecycle_hooks query_scopes enumerations utility_methods virtual_attributes).freeze
 
-  argument :concerns, type: :array, default: [], banner: "associations validations callbacks scopes enums custom_methods"
+  argument :concerns, type: :array, default: [], banner: "associations validation_rules lifecycle_hooks query_scopes enumerations utility_methods virtual_attributes"
   argument :custom_concern, type: :string, default: "", banner: "Custom concern name"
 
   def create_concern_files
