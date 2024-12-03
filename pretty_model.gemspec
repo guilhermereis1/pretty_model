@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = PrettyModel::VERSION
   spec.authors       = ["Guilherme Reis"]
   spec.email         = ["guilhermejosereis27@gmail.com"]
-  spec.summary       = "Gerador de concerns para Rails"
-  spec.description   = "Uma gem para gerar concerns em um projeto Rails"
+  spec.summary       = "A generator for Rails concerns"
+  spec.description   = "A gem designed to simplify the creation and management of concerns in Rails projects"
   spec.homepage      = "https://github.com/guilhermereis1/pretty_model"
   spec.license       = "MIT"
 
